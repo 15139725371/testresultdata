@@ -3,10 +3,10 @@ package com.example.testresultdata.code;
 /**
  * @ClassName: BaseResponseCode
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/4 22:57
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/4 22:57
+ * @Author: 李中华
+ * @CreateDate: 2021/4/22 22:57
+ * @UpdateUser: 李中华
+ * @UpdateDate: 2021/4/22 22:57
  * @Version: 0.0.1
  */
 public enum BaseResponseCode implements ResponseCodeInterface {

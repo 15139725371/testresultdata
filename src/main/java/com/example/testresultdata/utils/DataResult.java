@@ -9,9 +9,9 @@ import lombok.Data;
 /**
  * @ClassName: DataResult
  * TODO:类文件简单描述
- * @Author: 小霍
+ * @Author: 李中华
  * @CreateDate: 2019/9/3 18:02
- * @UpdateUser: 小霍
+ * @UpdateUser: 李中华
  * @UpdateDate: 2019/9/3 18:02
  * @Version: 0.0.1
  */
@@ -85,10 +85,10 @@ public class DataResult<T>{
 
     /**
      * 操作成功 data为null
-     * @Author:      小霍
-     * @CreateDate:  2019/9/4 23:08
+     * @Author:      李中华
+     * @CreateDate:  2021/4/22 23:08
      * @UpdateUser:
-     * @UpdateDate:  2019/9/4 23:08
+     * @UpdateDate:  2021/4/22 23:08
      * @Version:     0.0.1
      * @param
      * @return       com.xh.lesson.utils.DataResult<T>
@@ -99,10 +99,10 @@ public class DataResult<T>{
     }
     /**
      * 操作成功 data 不为null
-     * @Author:      小霍
-     * @CreateDate:  2019/9/4 23:09
+     * @Author:      李中华
+     * @CreateDate:  2021/4/22 23:09
      * @UpdateUser:
-     * @UpdateDate:  2019/9/4 23:09
+     * @UpdateDate:  2021/4/22 23:09
      * @Version:     0.0.1
      * @param data
      * @return       com.xh.lesson.utils.DataResult<T>
@@ -113,10 +113,10 @@ public class DataResult<T>{
     }
     /**
      * 自定义 返回操作 data 可控
-     * @Author:      小霍
-     * @CreateDate:  2019/9/4 23:15
+     * @Author:      李中华
+     * @CreateDate:  2021/4/22 23:15
      * @UpdateUser:
-     * @UpdateDate:  2019/9/4 23:15
+     * @UpdateDate:  2021/4/22 23:15
      * @Version:     0.0.1
      * @param code
      * @param msg
@@ -129,10 +129,10 @@ public class DataResult<T>{
     }
     /**
      *  自定义返回  data为null
-     * @Author:      小霍
-     * @CreateDate:  2019/9/4 23:15
+     * @Author:      李中华
+     * @CreateDate:  2021/4/22 23:15
      * @UpdateUser:
-     * @UpdateDate:  2019/9/4 23:15
+     * @UpdateDate:  2021/4/22 23:15
      * @Version:     0.0.1
      * @param code
      * @param msg
@@ -144,10 +144,10 @@ public class DataResult<T>{
     }
     /**
      * 自定义返回 入参一般是异常code枚举 data为空
-     * @Author:      小霍
-     * @CreateDate:  2019/9/4 23:16
+     * @Author:      李中华
+     * @CreateDate:  2021/4/22 23:16
      * @UpdateUser:
-     * @UpdateDate:  2019/9/4 23:16
+     * @UpdateDate:  2021/4/22 23:16
      * @Version:     0.0.1
      * @param responseCode
      * @return       com.xh.lesson.utils.DataResult
@@ -158,10 +158,10 @@ public class DataResult<T>{
     }
     /**
      * 自定义返回 入参一般是异常code枚举 data 可控
-     * @Author:      小霍
-     * @CreateDate:  2019/9/4 23:16
+     * @Author:      李中华
+     * @CreateDate:  2021/4/22 23:16
      * @UpdateUser:
-     * @UpdateDate:  2019/9/4 23:16
+     * @UpdateDate:  2021/4/22 23:16
      * @Version:     0.0.1
      * @param responseCode
      * @param data
