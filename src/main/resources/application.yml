@@ -1,0 +1,6 @@
+# 配置swagger
+swagger:
+ basePackage: com.example.testresultdata.controller
+ title: lizh
+ description: 一生猿，一世猿。
+ version: V1.0
